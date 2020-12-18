@@ -23,3 +23,32 @@
     font-size: 30px;
     color: #0f3061;
 }
+
+/*---------------Footer*/
+
+footer {
+    background-color: #a9f1fc;
+    bottom: 0;
+}
+
+footer h5 {
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    color: #0f3061;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: #1762d1;
+    font-family: 'Arvo', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social-icons i {
+    font-size: 20px;
+    color: #1762d1;
+    text-align: center;
+    padding-left: 55px;
+}
