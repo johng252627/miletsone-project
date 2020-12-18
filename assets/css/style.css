@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Nanum+Gothic&family=Russo+One&display=swap');
 
+html,body {
+    overflow-x: hidden;
+}
+
 /*---------------Header*/
 
 .container-fluid {
@@ -66,6 +70,26 @@
     border: 2px solid black;
 }
 
+.offers h3 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+}
+
+.standard, .premium{
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.standard img, .premium img {
+    margin-left: 400px;
+    border: 2px solid black;
+}
+.standard-rate, .premium-rate {
+    background-color: rgba(12, 12, 12, 0.5);
+    width: 400px;
+    border-radius: 15px 15px 15px 15px;
+}
 /*---------------Footer*/
 
 footer {
