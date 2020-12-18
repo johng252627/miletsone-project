@@ -24,6 +24,48 @@
     color: #0f3061;
 }
 
+/*-----------Main section index.html*/
+
+.main-area {
+    background-color: #d7ebf5;
+}
+
+.alert {
+    text-align: center;
+    font-family: 'Arvo', sans-serif;
+    font-size: 20px;
+    color: #1762d1;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.alert-bg-color {
+    background-color: #d0adf7;
+}
+
+.alert-button-color {
+    background-color: #15eb2a;
+}
+
+.about-gym {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.about-gym h1 {
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+}
+
+.about-gym p {
+    font-size: 20px;
+}
+
+.about-gym img {
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
 /*---------------Footer*/
 
 footer {
