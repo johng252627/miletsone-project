@@ -12,12 +12,12 @@ html,body {
 }
 
 .bg-navbar {
-    background-color: #a9f1fc;
+    background-color: #1636d9;
 }
 
 .gym {
     font-family: 'Russo One', sans-serif;
-    color: #1762d1;
+    color: #c3c4d4;
     text-transform: uppercase;
     font-size: 45px;
 }
@@ -38,7 +38,7 @@ html,body {
     text-align: center;
     font-family: 'Arvo', sans-serif;
     font-size: 20px;
-    color: #1762d1;
+    color: #0f3061;
     margin-bottom: 20px;
     border: 1px solid #000;
 }
@@ -47,13 +47,14 @@ html,body {
     background-color: #d0adf7;
 }
 
-.alert-button-color {
+.btn-color {
     background-color: #15eb2a;
 }
 
 .about-gym {
     text-align: center;
     padding: 20px 0 20px 0;
+    color: #0f3061;
 }
 
 .about-gym h1 {
@@ -67,33 +68,47 @@ html,body {
 
 .about-gym img {
     margin-bottom: 20px;
-    border: 2px solid black;
+    border: 2px solid #0f3061;
+}
+
+.offers {
+    padding: 0 10px 40px 10px;
 }
 
 .offers h3 {
     text-align: center;
     font-family: 'Russo One', sans-serif;
     font-size: 40px;
+    color: #0f3061;
 }
 
-.standard, .premium{
-    margin: 20px 0px;
-    text-align: left;
-}
-
-.standard img, .premium img {
-    margin-left: 400px;
-    border: 2px solid black;
-}
 .standard-rate, .premium-rate {
-    background-color: rgba(12, 12, 12, 0.5);
-    width: 400px;
-    border-radius: 15px 15px 15px 15px;
+    font-family: 'Arvo', sans-serif;
+    font-size: 20px;
+    color: #0f3061;
 }
+
+.standard-rate h4, .premium-rate h4 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.standard-rate p, .premium-rate p {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rates-info {
+    background-color: rgba(22, 54, 217, 0.25);
+    border-radius: 30px 30px 30px 30px;
+}
+
 /*---------------Footer*/
 
 footer {
-    background-color: #a9f1fc;
+    background-color: #1636d9;
     bottom: 0;
 }
 
@@ -106,7 +121,7 @@ footer h5 {
 
 footer p {
     text-align: center;
-    color: #1762d1;
+    color: #c3c4d4;
     font-family: 'Arvo', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -114,7 +129,7 @@ footer p {
 
 .social-icons i {
     font-size: 20px;
-    color: #1762d1;
+    color: #c3c4d4;
     text-align: center;
     padding-left: 55px;
 }
