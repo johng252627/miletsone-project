@@ -97,3 +97,57 @@ To access the wireframes, follow these links:
 [Classes page](wireframes/classes-jonners-gym.pdf)
 
 [Sign up page](wireframes/wireframes-join.pdf)
+
+## Features
+
+### Existing Features
+
+Each page has a header, footer and main section.
+
+The header has the name of the gym, which links to the home page. It also has navigation
+links to the home, classes and sign up pages.
+
+The footer has information about the opening hours, contact and location information and
+links to the gym's social media.
+
+Home page
+
+* There are images showing pictures of people exercising and the gym equipment.
+* There is a paragraph of text providing information about the gym.
+* There is information about the membership offers with an opaque background
+to draw the eye of the users.
+* There are buttons that link to the sign up page so users have another way
+of quickly accessing this.
+
+Classes
+
+* There are more images to motivate users to exercise.
+* There is a paragraph of text motivating users to explore the classes.
+* The schedules for different classes are displayed, which includes what the classes
+are and the times they are on.
+
+Sign up
+
+* There are more images that aim to inspire users to join the gym.
+* There is a paragraph of text encouraging users to sign up.
+* There is an sign up form that gives the users a choice of membership type.
+
+### Features Still To Impleament
+
+There are a number of features that I would like to implement in the future.
+Some of the possibilities for future inclusion are:
+
+* Gallery of photos on a carousel loop.
+* Members area with access to exclusive training programmes.
+* Members testimonials.
+
+## Technologies Used
+
+[HTML](https://html.com/)
+*This project uses HTML for the core structure of the website.
+
+[CSS](https://www.w3.org/)
+*CSS was used to style the elements within the website.
+
+[Bootstrap](https://getbootstrap.com/)
+*Bootstrap was used to create the navbar, sign up form and for the grid system structure.
