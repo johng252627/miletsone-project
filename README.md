@@ -63,6 +63,7 @@ inspiration to users looking to improve their health and achieve their fitness g
 ### User Stories
 
 As a person who wants to improve my fitness:
+
 1. I am dissatisfied with my current fitness level and want to improve it.
 2. I am looking for a gym that offers a wide range of facilities and assistance to people
 with little knowledge on how to achieve their fitness goals.
@@ -74,9 +75,21 @@ exercises until I find one that suits me.
 I'm receiving.
 
 As a person who wants to change gyms:
+
 1. I want a gym that provides more one-to-one training.
 2. I want the flexibility to attend classes that suit my schedule.
 3. I want a gym with long opening hours throughout the week so that I can avoid peak 
 times when necessary so I don't have to wait for equipment to be free.
 4. I want a gym that has a wide variety of equipment so that I can train in different ways.
 
+### Wireframes
+
+During the planning and development process I created some wireframes to get an idea of how
+the project would look and to let me plan the structure of the website.
+
+This was also helpful in that I could keep the layout in mind while writing the code so 
+I knew what I was doing at each stage.
+
+To access the wireframes, follow these links:
+
+[Home page](wireframes/wireframes-home-page.pdf)
