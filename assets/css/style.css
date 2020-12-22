@@ -92,6 +92,7 @@ html,body {
 .rates-info {
     background-color: rgba(22, 54, 217, 0.25);
     border-radius: 30px 30px 30px 30px;
+    margin-top: 5px;
 }
 
 .join {
@@ -104,6 +105,13 @@ html,body {
     padding: 0 10px 40px 10px;
 }
 
+.all-classes h3 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    color: #0f3061;
+}
+
 .schedule {
     background-color: rgba(22, 54, 217, 0.25);
     border-radius: 30px 30px 30px 30px;
@@ -111,6 +119,7 @@ html,body {
 }
 
 .classes {
+    margin-top: 5px;
     padding: 10px 0;
     font-family: 'Arvo', sans-serif;
     font-size: 20px;
@@ -143,6 +152,13 @@ form {
     padding: 10px 10px 10px 10px;
 }
 
+.signup h3 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    color: #0f3061;
+}
+
 /*---------------Footer*/
 
 footer {
@@ -169,4 +185,12 @@ footer p {
 .social a {
     text-decoration: none;
     color: #c3c4d4;
+}
+
+.btn:focus {
+    background-color: #11a83e;
+}
+
+.cover {
+    object-fit: cover;
 }
