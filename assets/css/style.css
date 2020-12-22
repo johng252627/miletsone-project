@@ -4,15 +4,23 @@ html,body {
     overflow-x: hidden;
 }
 
-/*---------------Header*/
+/*--------------------------------------------------Header*/
 
 .container-fluid {
     margin: 0;
     padding: 0;
 }
 
+/*-------------------------navbar*/
+
 .bg-navbar {
     background-color: #1636d9;
+}
+
+.nav-home, .nav-classes, .nav-signup {
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    color: #0f3061;
 }
 
 .gym {
@@ -22,13 +30,7 @@ html,body {
     font-size: 45px;
 }
 
-.nav-home, .nav-classes, .nav-signup {
-    font-family: 'Russo One', sans-serif;
-    font-size: 30px;
-    color: #0f3061;
-}
-
-/*-----------Main section index.html*/
+/*---------------------------------------------------Styles repeating in main area of pages*/
 
 .main-area {
     background-color: #d7ebf5;
@@ -38,7 +40,11 @@ html,body {
     background-color: #15eb2a;
 }
 
-.about-gym {
+.btn:focus {
+    background-color: #11a83e;
+}
+
+.about-gym-page {
     text-align: center;
     padding: 40px 0 20px 0;
     color: #0f3061;
@@ -58,6 +64,12 @@ html,body {
     margin-bottom: 20px;
     border: 2px solid #0f3061;
 }
+
+.cover {
+    object-fit: cover;
+}
+
+/*--------------------------------------------index.html membership offers*/
 
 .offers {
     padding: 0 10px 40px 10px;
@@ -99,7 +111,7 @@ html,body {
     padding-bottom: 10px;
 }
 
-/*-----------Main section classes.html*/
+/*--------------------------------------------classes.html schedule*/
 
 .all-classes {
     padding: 0 10px 40px 10px;
@@ -131,7 +143,7 @@ html,body {
     font-size: 25px;
 }
 
-/*-----------signup.html*/
+/*---------------------------------------signup.html sign up*/
 
 .signup-form {
     display: block;
@@ -144,6 +156,9 @@ form {
     margin-left: 40%;
     margin-right: 40%;
     min-width: 360px;
+    font-family: 'Arvo', sans-serif;
+    color: #0f3061;
+    font-size: 20px;
 }
 
 .form-bg {
@@ -185,12 +200,4 @@ footer p {
 .social a {
     text-decoration: none;
     color: #c3c4d4;
-}
-
-.btn:focus {
-    background-color: #11a83e;
-}
-
-.cover {
-    object-fit: cover;
 }
