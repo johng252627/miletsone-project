@@ -93,3 +93,7 @@ I knew what I was doing at each stage.
 To access the wireframes, follow these links:
 
 [Home page](wireframes/wireframes-home-page.pdf)
+
+[Classes page](wireframes/classes-jonners-gym.pdf)
+
+[Sign up page](wireframes/wireframes-join.pdf)
