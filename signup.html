@@ -50,7 +50,7 @@
         <div class="signup">
             <h3>Sign Up</h3>
             <div class="signup-form d-flex justify-content-center">
-                <form>
+                <form method="POST">
                     <div class="form-group form-bg">
                         <div>
                             <label for="email-addess">Email</label>
@@ -65,11 +65,11 @@
                             <input type="password" class="form-control" id="confirm-password" name="confirm-password" placeholder="Re-enter password" required/>
                         </div>
                         <div class="custom-control radio">
-                            <input type="radio" id="standard-radio" name="standard-radio" class="custom-control-input"/>
+                            <input type="radio" id="standard-radio" name="membership-radio" class="custom-control-input"/>
                             <label class="custom-control-label" for="standard-radio">Standard membership</label>
                         </div>
-                        <div class="custom-control radio">
-                            <input type="radio" id="premium-radio" name="premium-radio" class="custom-control-input"/>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="premium-radio" name="membership-radio" class="custom-control-input"/>
                             <label class="custom-control-label" for="premium-radio">Premium membership</label>
                         </div>
                         <div>
