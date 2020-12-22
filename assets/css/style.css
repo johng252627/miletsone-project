@@ -34,27 +34,15 @@ html,body {
     background-color: #d7ebf5;
 }
 
-.alert {
-    text-align: center;
-    font-family: 'Arvo', sans-serif;
-    font-size: 20px;
-    color: #0f3061;
-    margin-bottom: 20px;
-    border: 1px solid #000;
-}
-
-.alert-bg-color {
-    background-color: #d0adf7;
-}
-
 .btn-color {
     background-color: #15eb2a;
 }
 
 .about-gym {
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 40px 0 20px 0;
     color: #0f3061;
+
 }
 
 .about-gym h1 {
@@ -178,9 +166,7 @@ footer p {
     text-transform: uppercase;
 }
 
-.social-icons i {
-    font-size: 20px;
+.social a {
+    text-decoration: none;
     color: #c3c4d4;
-    text-align: center;
-    padding-left: 55px;
 }
